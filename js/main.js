@@ -28,27 +28,27 @@ $('ul li ').on('click', function (e) {
 
 $('.heading1').on('click',function(){
    
-    $('.paraghraph1').removeClass('d-none')
+    $('.paraghraph1').toggleClass('d-none')
         $('.paraghraph1').siblings('.paraghraph').addClass('d-none')
     })
 
 
 $('.heading2').on('click',function(){
    
-    $('.paraghraph2').removeClass('d-none')
+    $('.paraghraph2').toggleClass('d-none')
     $('.paraghraph2').siblings('.paraghraph').addClass('d-none')
 
 })
 
 $('.heading3').on('click',function(){
    
-    $('.paraghraph3').removeClass('d-none')
+    $('.paraghraph3').toggleClass('d-none')
     $('.paraghraph3').siblings('.paraghraph').addClass('d-none')
 
 })
 $('.heading4').on('click',function(){
    
-    $('.paraghraph4').removeClass('d-none')
+    $('.paraghraph4').toggleClass('d-none')
     $('.paraghraph4').siblings('.paraghraph').addClass('d-none')
 
 })
